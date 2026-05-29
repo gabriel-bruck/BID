@@ -113,7 +113,7 @@ coletor.obter_documentos()
 
 # 🏃‍♂️ Como Executar
 
-Com o arquivo `projetos.xlsx` preenchido na raiz, basta rodar o script principal:
+Com o arquivo `projetos_exemplo.xlsx` preenchido na raiz, basta rodar o script principal:
 
 ```bash id="i1zr9b"
 python main.py
