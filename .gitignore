@@ -1,0 +1,34 @@
+```gitignore
+# Virtual Environment
+venv/
+.venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Playwright
+playwright/.local-browsers/
+
+# Logs
+*.log
+
+# CSVs gerados
+resultado_links_documentos2.csv
+log_erros.csv
+
+# Downloads
+documentos_baixados_teste/
+
+# IDEs
+.vscode/
+.idea/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+```
