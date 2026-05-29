@@ -4,7 +4,7 @@ import pandas as pd
 from playwright.sync_api import sync_playwright
 
 class BID:
-    def __init__(self, input_file, base_download_path="./documentos_baixados_teste", output_csv="resultado_links_documentos2.csv", headless=True):
+    def __init__(self, input_file, base_download_path="./documentos_baixados", output_csv="resultado_links_documentos.csv", headless=True):
         self.input_file = input_file
         self.base_download_path = base_download_path
         self.output_csv = output_csv
